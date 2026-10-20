@@ -6,25 +6,25 @@ cask "stampede" do
     end
   end
 
-  version "1.2.3"
+  version "1.2.4"
 
   on_macos do
     on_arm do
-      sha256 "db9cd2b262b932359f5df92eb928f6bb18bc7d24b53bc108179af4a221458092"
+      sha256 "4e02e5edbf33fa3be31a57fa37dfe24c64f74de3b9ba81360b08552b37b7003e"
       url "https://github.com/Ivan825/Stampede/releases/download/v#{version}/stampede_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7eb3ae09176a73118e22ace456551b811c227a3a0a758f7bf10bab77af09e564"
+      sha256 "04da6fdf650a508494e0956e934b96a43518e88c38bd4da3fb9fb6355aeeeef6"
       url "https://github.com/Ivan825/Stampede/releases/download/v#{version}/stampede_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "6a06891dd6d0bd462e3f8bbb9f4af88a9e96a0e8b6de4b8b9d5271a801f6214a"
+      sha256 "f4da44985846fd7fd29df348ca52b1287d757f4d6c57a5c41654ea0d5c31572b"
       url "https://github.com/Ivan825/Stampede/releases/download/v#{version}/stampede_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1e0222289a305c90528435290f5b59848f1e3e127ae7233573526461ca91a8e8"
+      sha256 "347832c2880108215b8f45016fd0bc12153192697e333a9fe6a11ce191ea3ceb"
       url "https://github.com/Ivan825/Stampede/releases/download/v#{version}/stampede_#{version}_linux_amd64.tar.gz"
     end
   end
